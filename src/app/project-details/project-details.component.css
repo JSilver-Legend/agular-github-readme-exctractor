@@ -1,0 +1,9 @@
+.content{
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: calc(100vh - 160px);
+    font-size: 20pt;
+    overflow: auto;
+}

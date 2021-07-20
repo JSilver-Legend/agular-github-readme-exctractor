@@ -1,0 +1,16 @@
+.expanded-toolbar {
+  margin-top: 60px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+}
+.back{
+  background-image: url(../assets/img/back.png);
+  background-repeat: round;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;  
+}

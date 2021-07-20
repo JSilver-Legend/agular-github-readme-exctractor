@@ -1,0 +1,16 @@
+mat-card {
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+mat-form-field {
+  display: block;
+}
+.MatInput{
+  font-size: large
+}
+
+.logo {
+  z-index: 1000;
+}

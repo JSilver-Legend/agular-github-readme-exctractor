@@ -1,0 +1,23 @@
+.repo-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100vw;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+.mt-5 {
+    margin-top: 20px;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.example-full-width {
+  margin-top: 10px;
+  font-size: large;
+  width: 40%;
+}

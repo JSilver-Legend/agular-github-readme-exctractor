@@ -1,0 +1,56 @@
+mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  mat-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tic-tac-toe {
+    width: 192px;
+    display: flex;
+    flex-wrap:  wrap;
+  }
+  
+  .game-field {
+    width: 48px;
+    height: 48px;
+    margin: 8px;
+    background-color: #f0f0f0;
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .playing .game-field {
+    cursor: pointer;
+  }
+  
+  button, mat-slide-toggle {
+    margin-bottom: 2rem;
+  }
+  .example-card {
+    width: 20vw;
+    margin: 10px 10px;
+  }
+  .example-card:hover{
+    background-color: rgb(238, 234, 240);
+  }
+    
+  .content{
+    background-color: yellow;
+    width: 20vw;
+    height: 50px;
+  }
+  
+  
+  .example-header-image {
+    background-image: url(../../assets/img/logo.png); 
+    background-size: cover;
+  }
+  

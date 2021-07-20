@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Project {{ repo.index + 1 }}</mat-card-title>
+  </mat-card-header>
+  <P></P>
+  <mat-card-content class="content">
+    {{ repo.name }}
+  </mat-card-content>
+  <mat-card-content class="content">
+    {{ repo.description }}
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="detailsHandler(repo.name)">VIEW DETAIL</button>
+  </mat-card-actions>
+</mat-card>
+  

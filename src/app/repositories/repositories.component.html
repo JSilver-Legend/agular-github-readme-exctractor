@@ -1,0 +1,12 @@
+<div class="mt-5 justify-content-center">
+    <mat-form-field class="example-full-width" appearance="fill" >
+        <mat-label>Enter Project Name</mat-label>
+        <input matInput [(ngModel)]="searchText">
+    </mat-form-field>   
+    <button mat-button (click)="searchHandler()"><mat-icon>search</mat-icon></button>
+</div>  
+<div class="repo-container">
+    <div *ngFor="let repo of searchedrepos">
+        <app-repo-card [repo]="repo"></app-repo-card>
+    </div>
+</div>
